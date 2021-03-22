@@ -1,0 +1,14 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    border-bottom: 1px solid;
+    cursor: pointer;
+    &:hover{
+        background-color: grey;
+    }
+    p {
+        margin-left: 30px;
+    }
+}

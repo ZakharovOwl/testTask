@@ -1,0 +1,34 @@
+nav {
+  display: flex;
+  background-color: #16202a;
+  flex-direction: column;
+  align-items: center;
+
+  .github {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+
+    &:hover {
+      color: #00afff;
+    }
+  }
+
+  a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+  li {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 10px;
+  }
+  .link_active {
+    color: #00afff;
+  }
+}

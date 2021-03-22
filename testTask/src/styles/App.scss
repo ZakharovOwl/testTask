@@ -1,0 +1,46 @@
+@import "./MyTweets";
+@import "./Navnar";
+@import "./Treends";
+@import '_CardCurrency';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+h1,
+h2,
+h3 {
+  color: rgb(54, 54, 54);
+}
+
+h3,
+h4 {
+  font-weight: 400;
+  color: #d0cdcd;
+}
+
+.app-wrapper {
+  display: grid;
+
+  grid-template-areas:
+    "nav content"
+    "nav content";
+  grid-template-rows: 7rem 1fr;
+  grid-template-columns: 0fr 1fr;
+  grid-gap: 3px;
+  min-height: 100vh;
+  background-color: black;
+}
+
+nav {
+  grid-area: nav;
+  width: 15vw;
+  border-radius: 15px;
+}
+
+.content {
+  grid-area: content;
+  background-color: rgb(199, 181, 149);
+}
