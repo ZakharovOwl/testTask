@@ -1,13 +1,10 @@
 import React, { useState} from "react";
 import { BrowserRouter, Route} from "react-router-dom";
 
-
 //components
 import Finance from "./components/Finance/Finance";
-import NewsHabr from "./components/Habr/NewsHabr";
 import MyTweets from "./components/MyTweets/MyTweets";
 import Navbar from "./components/Navnar";
-import NewsTutby from "./components/NewsTutBy/NewsTutby";
 //import dataTweets from "./dataTweets";
 
 //styles
@@ -68,8 +65,6 @@ function App() {
               />
             )}
           />
-          <Route path="/newstutby" render={() => <NewsTutby />} />
-          <Route path="/newshabr" render={() => <NewsHabr />} />
           <Route path="/finance" render={() => <Finance />} />
         </div>
       </div>

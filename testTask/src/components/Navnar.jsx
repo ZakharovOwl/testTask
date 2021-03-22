@@ -19,21 +19,12 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <a
-            //activeClassName="link_active"
-            className="list__link"
-            href="https://zakharovowl.github.io/rsstut/"
-          >
-            TUT.by
-          </a>
-        </li>
-        <li>
           <NavLink
             to="/finance"
             activeClassName="link_active"
             className="list__link"
           >
-            Finance
+            Finance (useApi)
           </NavLink>
         </li>
       </ul>
